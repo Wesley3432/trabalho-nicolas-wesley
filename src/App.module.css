@@ -1,141 +1,143 @@
-.titulos{
-    color: rgb(30, 255, 0);
-}
 .menu {
-    display: flex;
-    width: 100%;
-    position: fixed;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
-    gap: 20px;
-    z-index: 999;
-    background-color: #17abf0;
-    box-shadow: 0px 3px 20px #5daab47c;
+  width: 100%;
+  padding: 16px 40px;
+  background: #020617;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #1e293b;
 }
-.s1 {
-    background-color: #18475a;
-    color: #ffffff;
-    height: 100vh;
-    display: flex;
+
+.menu a {
+  color: #cbd5e1;
+  font-weight: 600;
+  transition: 0.3s;
+  position: relative;
+}
+
+.menu a:hover {
+  color: #38bdf8;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+
+
+.section {
+  padding: 80px 0;
+  border-bottom: 1px solid #1e293b;
+}
+
+.sectionAlt {
+  padding: 80px 0;
+  background-color: #020617;
+  border-bottom: 1px solid #1e293b;
+}
+
+.section h1,
+.sectionAlt h1 {
+  font-size: 2.2rem;
+  margin-bottom: 24px;
+  color: #38bdf8;
+}
+
+
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+.section p,
+.sectionAlt p {
+  margin-bottom: 12px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+
+
+.row {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.rowReverse {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 40px;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.image {
+  width: 420px;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+
+.imageSmall {
+  width: 220px;
+  border-radius: 100%;
+  border: 3px solid #38bdf8;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.centerText {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 30px 0;
+  text-align: center;
+  background-color: #020617;
+  color: #94a3b8;
+  border-top: 1px solid #1e293b;
+  margin-top: 40px;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 900px) {
+  .row,
+  .rowReverse {
+    flex-direction: column;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .menu {
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-.s2 {
-    background-color: #18475a;
-    color: #ffffff;
-    min-height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-}
+    gap: 16px;
+  }
 
-.s3 {
-    background-color: #18475a;
-    color: #ffffff;
-    min-height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-}
-
-.s4 {
-    background-color: #18475a;
-    color: #ffffff;
-    min-height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-}
-
-.s2 .left, .s3 .right, .s4 .left {
-    max-width: 600px;
-}
-
-.s2 h2, .s3 h2, .s4 h2 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.s2 p, .s3 p, .s4 p {
-    font-size: 22px;
-    line-height: 30px;
-}
-
-.imgCOP {
-    width: 400px;
-    height: 400px;
-    transition: all 200ms ease-in-out;
-    border-radius: 100%;
-}
-
-.imgCOP:hover {
-    transform: scale(1.1);
-}
-.title {
-    font-size: 36px;
-    font-weight: bold;
-}
-.paragraph {
-    font-size: 22px;
-}
-.right {
-    width: 500px;
-}
-
-.rodape {
-    width: 100%;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    background-color: #011422;
-    border-top: 2px solid #0e4e7c;
-}
-
-.rodape a {
-    transition: all 500ms ease-in-out;
-    border-radius: 999px;
-    overflow: hidden;
-    
-}
-
-.rodape a:hover {
-    transform: translateY(-15px) scale(1.3);
-    
-}
-.rodape a img {
-border-radius: 100%;
-}
-
-
-
-
-@media (width <=768px) {
-    .s1 {
-        padding-top: 30px;
-        gap: 10;
-    }
-
-    .left {
-        width: -150;
-        height: 300px;
-    }
-
-    .imgPerfil {
-        width: 300px;
-        height: 300px;
-
-    }
-
-    .right {
-        padding: 20px;
-        margin-top: -150px;
-    }
+  .section h1,
+  .sectionAlt h1 {
+    font-size: 1.7rem;
+  }
 }
