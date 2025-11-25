@@ -22,27 +22,16 @@ function App() {
           <div className={styles.row}>  
             <div className={styles.text}>
               <p>
-                A COP é a Conferência das Partes da ONU sobre mudanças
-                climáticas. Todos os anos, líderes de vários países se reúnem
-                para discutir metas, compromissos e ações contra a crise
-                climática. O objetivo principal é tentar reduzir a emissão de
-                gases do efeito estufa e encontrar caminhos para um futuro mais
-                sustentável.
+              A COP é a Conferência das Partes da ONU sobre mudanças climáticas, onde representantes de dezenas de países se reúnem para discutir metas, estratégias e compromissos ligados ao combate ao aquecimento global. É nesse espaço que se definem caminhos para reduzir emissões de gases do efeito estufa e lidar com os impactos ambientais que já estão acontecendo.
               </p>
 
               <p>
-                Na teoria, tudo parece perfeito: acordos, metas, relatórios e
-                promessas. Mas, na prática, muitos desses compromissos demoram
-                para sair do papel. A COP acaba sendo, muitas vezes, mais palco
-                político do que um espaço real de mudança.
+               Na teoria, tudo gira em torno da cooperação e da ciência. Na prática, entretanto, interesses políticos e econômicos acabam influenciando as decisões, o que muitas vezes torna os acordos mais lentos e menos eficientes do que o necessário para enfrentar a crise climática.
               </p>
 
               <p>
-                Mesmo assim, ela continua sendo um dos poucos espaços globais
-                onde o mundo inteiro discute o mesmo problema: o aquecimento
-                global e suas consequências diretas na vida de milhões de
-                pessoas.
-                </p>
+               Mesmo assim, a COP continua sendo um dos poucos momentos em que o mundo inteiro volta sua atenção para um mesmo problema ambiental, criando pressão internacional e gerando debates que podem influenciar políticas públicas em vários países.
+              </p>
                 <details >
                    <summary>Mais Fontes de Pesquisa</summary>
                  <p>
@@ -80,24 +69,15 @@ function App() {
 
             <div className={styles.text}>
               <p>
-                A COP30 será sediada em Belém, no Pará, em plena região
-                amazônica. Isso, por si só, já é simbólico. Afinal, estamos
-                falando do maior bioma tropical do mundo, que sofre diariamente
-                com desmatamento, queimadas e exploração ilegal.
+               A COP30 acontece em Belém, no Pará, em plena Amazônia, o que já carrega um peso simbólico enorme. O Brasil se coloca no centro das discussões globais sobre clima ao sediar o evento no território do maior bioma tropical do planeta.
               </p>
 
               <p>
-                Muita gente comemora o fato de o Brasil ser o anfitrião, mas
-                também surgem críticas: será que o país está preparado para
-                receber um evento desse porte? Infraestrutura, segurança,
-                impacto ambiental do próprio evento... tudo isso entra em jogo.
+                Ao mesmo tempo em que há comemoração por essa visibilidade, também surgem dúvidas e críticas sobre a capacidade do país de lidar com a infraestrutura, a logística e os impactos ambientais que um evento desse porte exige. A cidade passa por mudanças aceleradas para receber líderes e delegações do mundo inteiro.
               </p>
 
               <p>
-                Existe também uma sensação de que a COP30 pode virar só mais
-                uma vitrine para discursos bonitos. O mundo vai olhar para a
-                Amazônia, mas será que vai ajudar de verdade a protegê-la, ou
-                apenas transformar tudo em marketing verde?
+                Existe ainda um olhar desconfiado sobre as intenções por trás do evento. Para alguns, a COP30 precisa ser mais do que uma vitrine política: precisa se tornar uma oportunidade real de ação concreta em defesa do meio ambiente e da própria Amazônia.
               </p>
             </div>
             <div className={styles.videoWrapper}> <iframe width="560" height="315" src="https://www.youtube.com/embed/KDfbx9nwRHU?si=au9IJMPbgPjn4gQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </div>
@@ -110,24 +90,15 @@ function App() {
           <h1>Acontecimentos e polêmicas</h1>
 
           <p>
-            Toda COP vem acompanhada de polêmicas. Desde protestos de
-            ativistas até acusações de hipocrisia por parte de grandes países
-            poluidores. Muitos líderes discursam sobre sustentabilidade, mas
-            continuam financiando indústrias que destroem o meio ambiente.
+           Desde já, a COP30 gera debates e controvérsias. Há críticas envolvendo gastos públicos, preparação da cidade e o risco de impactos ambientais provocados pelas próprias obras realizadas para o evento. Isso causa incômodo em parte da população local.
           </p>
 
           <p>
-            Outro ponto polêmico é que, muitas vezes, quem mais sofre com as
-            mudanças climáticas são os países mais pobres — justamente aqueles
-            que menos contribuíram para a crise. Enquanto isso, nações ricas
-            costumam fugir de responsabilidades reais ou oferecem ajudas que
-            estão longe do suficiente.
+          Outra polêmica envolve a postura de países que se dizem comprometidos com o meio ambiente, mas continuam mantendo práticas poluentes em larga escala. Essa contradição torna o discurso climático frágil e gera desconfiança sobre a eficácia real das decisões tomadas nas conferências.
           </p>
 
           <p>
-            A COP também vira palco para grandes manifestações, principalmente
-            de jovens que cobram ações concretas. A mensagem é clara: não dá
-            mais para adiar decisões enquanto o planeta dá sinais de colapso.
+           Além disso, movimentos sociais, ambientalistas e organizações indígenas se mobilizam para cobrar ações mais firmes e menos promessas vazias. A presença dessas vozes torna a COP um espaço também de protesto e resistência.
           </p>
         </section>
 
@@ -135,24 +106,15 @@ function App() {
           <h1>Amazônia no centro do debate</h1>
 
           <p>
-            É impossível falar de clima sem falar da Amazônia. Ela é um dos
-            maiores reguladores climáticos do planeta, mas continua sendo
-            destruída por ganância, descaso e políticas ineficientes. O
-            desmatamento ilegal, o garimpo e as queimadas avançam a cada ano.
+     A Amazônia ocupa um papel central nas discussões climáticas, já que é uma das maiores responsáveis pelo equilíbrio ambiental do planeta. Ela influencia o regime de chuvas, abriga uma imensa biodiversidade e ajuda a regular a temperatura global.
           </p>
 
           <p>
-            Ao mesmo tempo, comunidades indígenas e povos tradicionais lutam
-            diariamente para proteger a floresta. São eles que muitas vezes
-            fazem o trabalho que governos inteiros ignoram. Mesmo assim,
-            recebem pouca visibilidade e quase nenhum apoio real.
+           Mesmo com essa importância, a floresta continua ameaçada pelo desmatamento, pelas queimadas e pela exploração ilegal de seus recursos. Isso transforma a região em símbolo tanto de esperança quanto de alerta sobre os limites que a humanidade está ultrapassando.
           </p>
 
           <p>
-            A COP30, acontecendo tão perto da floresta, deveria ser um marco de
-            mudança. Seria a chance perfeita de transformar discurso em ação.
-            Mas o medo é que continue tudo como está: muito debate e pouca
-            transformação de verdade.
+           Com a COP30 acontecendo tão perto da floresta, cresce a expectativa por medidas concretas de proteção. Ainda assim, existe o medo de que tudo se resuma a discursos e imagens impactantes, sem mudanças reais capazes de garantir um futuro mais sustentável.
           </p>
         </section>
 
