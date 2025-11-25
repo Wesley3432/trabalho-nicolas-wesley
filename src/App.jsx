@@ -42,11 +42,30 @@ function App() {
                 onde o mundo inteiro discute o mesmo problema: o aquecimento
                 global e suas consequências diretas na vida de milhões de
                 pessoas.
-              </p>
+                </p>
+                <details >
+                   <summary>Mais Fontes de Pesquisa</summary>
+                 <p>
+                     Site oficial da ONU sobre mudanças climáticas: <a className={styles.azul} href="https://unfccc.int/">Link</a>
+                 </p>                        
+                 <p>
+                     Artigo da BBC sobre a COP30 no Brasil: <a className={styles.azul} href="https://www.bbc.com/portuguese/topics/c0rg9wxw8ykt">Link</a>                            
+                  </p>
+                  <p>
+                      Reportagem da National Geographic sobre a Amazônia: <a className={styles.azul} href="https://www.nationalgeographicbrasil.com/viagem/2025/11/o-que-a-capital-da-cop30-no-brasil-esconde-descubra-os-3-fatos-sobre-belem-a-metropole-da-amazonia">Link</a>
+                  </p>
+                 <p>
+                     Vídeo explicativo sobre a COP30: <a className={styles.azul} href="https://www.youtube.com/watch?v=KDfbx9nwRHU">Link</a>
+                 </p>
+                    </details>
             </div>
 
             <img src={COP} alt="Imagem COP" className={styles.image} />
+
+
+            
           </div>
+          
         </section>
 
         <section id="s2" className={styles.sectionAlt}>
@@ -81,9 +100,11 @@ function App() {
                 apenas transformar tudo em marketing verde?
               </p>
             </div>
+            <div className={styles.videoWrapper}> <iframe width="560" height="315" src="https://www.youtube.com/embed/KDfbx9nwRHU?si=au9IJMPbgPjn4gQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </div>
           </div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/_zp6kAIhZC8?si=HTfJ8ykEY0GIFdD9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </section>
+
+             </section>
+        
 
         <section id="s3" className={styles.section}>
           <h1>Acontecimentos e polêmicas</h1>
@@ -179,7 +200,11 @@ function App() {
           </p>
         </section>
       </main>
-
+<details>
+  <summary>Github dos criadores</summary>
+  <p><a className={styles.azul} href="https://github.com/Wesley3432">Github do Wesley</a></p>
+  <p><a className={styles.azul} href="https://github.com/Nicolasink3">Github do Nicolas</a></p>
+</details>
       <footer className={styles.footer}>
         <p>© 2025 - Site sobre COP30 e Meio Ambiente</p>
       </footer>
